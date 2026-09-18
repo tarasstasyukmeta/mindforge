@@ -2,8 +2,11 @@
 
 Brain gym for the LLM era. See [BRAINSTORM.md](BRAINSTORM.md) for full product thinking (problem, 8 faculties, loops, roadmap, business).
 
+## Live
+**https://tarasstasyukmeta.github.io/mindforge/** — GitHub Pages from dedicated repo https://github.com/tarasstasyukmeta/mindforge (published via `gh` API; `git push` auth failed on devserver, contents API used). Root may serve stale 404 briefly (proxy cache); `.../mindforge/index.html` and `?v=2` verified `200`.
+
 ## Deploy (static, 1-click)
-Ready: `vercel.json`, PWA (`manifest.webmanifest`+`sw.js`+`favicon.svg`, offline, installable). No live URL yet — needs account auth (`vercel login` was not present on devserver).
+Ready: `vercel.json`, PWA (`manifest.webmanifest`+`sw.js`+`favicon.svg`, offline, installable).
 ```bash
 vercel --prod            # Vercel (after vercel login)
 # or: Netlify Drop — drag this folder to app.netlify.com/drop
